@@ -9,6 +9,15 @@ It is still under development, major API changes may take place and new fields w
 
  * zauberfisch
 
+## Screens ##
+
+ * http://zauberfisch.com/MagicFormFields/001.PNG
+ * http://zauberfisch.com/MagicFormFields/002.PNG
+ * http://zauberfisch.com/MagicFormFields/003.PNG
+ * http://zauberfisch.com/MagicFormFields/004.PNG
+ * http://zauberfisch.com/MagicFormFields/005.PNG
+     
+
 ## ToDo ##
 
  * docs
