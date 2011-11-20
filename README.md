@@ -11,7 +11,7 @@ It is still under development, major API changes may take place and new fields w
 
 ## ToDo ##
 
- * docu
+ * docs
  * unit tests
 
 ## Thanks to ##
