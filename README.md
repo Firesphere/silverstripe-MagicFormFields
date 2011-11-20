@@ -1,4 +1,4 @@
-# SilverStripe magicFormFields module #
+# SilverStripe MagicFormFields module #
 
 ### WARNING: this module is in alpha state and not fully tested yet! ###
 
