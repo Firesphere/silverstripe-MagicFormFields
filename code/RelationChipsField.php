@@ -352,9 +352,6 @@ class RelationChipsField extends FormField {
 	}
 	
 	function saveInto(DataObject $record) {
-		FB::log($record, '$record');
-		FB::log($this, '$this');
-		die("aa");
 		$fieldname = $this->name;
 		$value = $this->Value();
 		if($fieldname && $record) {
