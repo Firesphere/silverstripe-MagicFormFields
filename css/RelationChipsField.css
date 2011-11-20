@@ -1,0 +1,55 @@
+.relationchips select {
+	display: none;
+}
+.relationchips .middleColumn {
+	position: relative;
+}
+.relationchips label.hint,
+.relationchips label.reset {
+	position: absolute;
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    margin: 0;
+}
+.relationchips label.reset {
+	left: 290px;
+}
+* html .relationchips ul { 
+   height: expression( this.scrollHeight > 299 ? "300px" : "auto" ); /* sets max-height for IE */
+}
+.relationchips ul {
+	padding: 0;
+	margin: 5px 0;
+	max-height: 300px;
+	overflow: auto;
+}
+	.relationchips li {
+		margin: 5px 5px 5px 0;
+		padding: 3px 5px;
+		background: #999;
+		color: #000;
+		cursor: pointer;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px; 
+		overflow: hidden;
+	}
+		.relationchips li:first-child {
+			margin-top: 0;
+		}
+		.relationchips li:last-child {
+			margin-bottom: 0;
+		}
+		.relationchips li.selected {
+			background: #2D8BC5;
+			color: #fff;
+		}
+		.relationchips li.warning {
+			background: #FFAA00;
+		}
+		
+			.relationchips li .highlight {
+				background: #EFFF79;
+			}
