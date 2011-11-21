@@ -16,10 +16,10 @@ It is still under development, major API changes may take place and new fields w
  * http://zauberfisch.com/MagicFormFields/003.PNG
  * http://zauberfisch.com/MagicFormFields/004.PNG
  * http://zauberfisch.com/MagicFormFields/005.PNG
-     
 
 ## ToDo ##
 
+ * borwser testing
  * docs
  * unit tests
 
