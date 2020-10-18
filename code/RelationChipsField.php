@@ -305,6 +305,17 @@ class RelationChipsField extends FormField {
 			$options .= $this->createTag('option', array('selected' => 'selected', 'value' => $item['ID'], 'class' => $id), $item['ID']) . PHP_EOL;
 			$values .= $this->createTag('li', array('ID' => $id, 'class' => "selected"), $item['Text']) . PHP_EOL;
 		}
+		//Adding code to validate the form //
+		
+		function validateForm()
+		{
+                                 var x = document.forms["myForm"]["fname"].value;
+                                 if (x == "") {
+                                  alert("Name must be filled out");
+                                     return false;
+                }
+		//Always a best pratice to implement this//
+}
 		
 		$select = array(
 			'id' => $this->attrName().'_select',
